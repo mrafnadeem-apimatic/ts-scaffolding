@@ -10,7 +10,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@paypal/paypal-server-sdk": "^1.0.0",
     "dotenv": "^16.5.0",
     "typescript": "^5.8.3"
   },
