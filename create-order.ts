@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import {
   ApiError,
   CheckoutPaymentIntent,
@@ -9,8 +10,8 @@ import {
 
 const client = new Client({
   clientCredentialsAuthCredentials: {
-    oAuthClientId: 'OAuthClientId', // Replace with your actual client ID
-    oAuthClientSecret: 'OAuthClientSecret' // Replace with your actual client secret
+    oAuthClientId: process.env.PAYPAL_CLIENT_ID || '',
+    oAuthClientSecret: process.env.PAYPAL_CLIENT_SECRET || ''
   },
   timeout: 0,
   environment: Environment.Sandbox,
