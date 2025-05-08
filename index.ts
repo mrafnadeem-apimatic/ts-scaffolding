@@ -1,7 +1,4 @@
-import 'dotenv/config';
-
 async function cliOrderFlow() {
-  
   // Step 1: Prompt the user for information about the order   
 
   // Step 2: Create the order.
