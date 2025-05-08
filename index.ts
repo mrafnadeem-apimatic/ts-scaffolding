@@ -1,15 +1,18 @@
 import 'dotenv/config';
 
 async function cliOrderFlow() {
-    // Step 1: Create the order
+  
+  // Step 1: Prompt the user for information about the order   
 
-    // Step 2: Print approval link
+  // Step 2: Create the order.
 
-    // Step 3: Wait for user confirmation
+  // Step 3: Print approval link
 
-    // Step 4: Capture the order
+  // Step 4: Wait for user confirmation
 
-    // Step 5: Print a readable response
+  // Step 5: Capture the order
+
+  // Step 6: Print a readable response
 }
 
 cliOrderFlow()
