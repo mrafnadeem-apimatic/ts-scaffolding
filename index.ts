@@ -9,7 +9,7 @@ async function cliOrderFlow() {
 
   // Step 5: Capture the order
 
-  // Step 6: Print a readable response
+  // Step 6: Print the order status, the buyer's name and break down the seller's sales
 }
 
 cliOrderFlow()
