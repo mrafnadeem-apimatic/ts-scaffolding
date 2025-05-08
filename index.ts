@@ -1,7 +1,7 @@
 async function cliOrderFlow() {
   // Step 1: Prompt the user for information about the order   
 
-  // Step 2: Create the order.
+  // Step 2: Create the order. The user should be redirected to https://example.org after checkout.
 
   // Step 3: Print approval link
 
